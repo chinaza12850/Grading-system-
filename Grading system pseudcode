@@ -1,0 +1,18 @@
+INPUT student_name, student_score
+
+IF student_score >= 70 AND student_score <= 100 THEN
+    grade = "A"
+ELSE IF student_score >= 60 AND student_score <= 69 THEN
+    grade = "B"
+ELSE IF student_score >= 50 AND student_score <= 59 THEN
+    grade = "C"
+ELSE IF student_score >= 45 AND student_score <= 49 THEN
+    grade = "D"
+ELSE IF student_score >= 40 AND student_score <= 44 THEN
+    grade = "E"
+ELSE
+    grade = "F"
+
+PRINT "Student Name: ", student_name
+PRINT "Student Score: ", student_score
+PRINT "Grade: ", grade
